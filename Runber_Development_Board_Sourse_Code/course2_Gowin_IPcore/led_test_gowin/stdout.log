@@ -1,0 +1,20 @@
+Project load failed.
+Starting:    C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+Hostname:    EYE-06
+Date:        Fri Apr 24 14:03:41 2020
+Version:     P-2019.09G
+
+Arguments:   -product synplify_pro D:/BaiduNetdiskDownload/Runber_Gowin_Board_sourse/course_prj/course2_高云IP Core简介及使用/led_test_gowin/led_test_gowin/impl/synthesize/led_test_gowin.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_gowin
+License: synplifypro_gowin node-locked 
+Licensed Vendor: gowin
+
+
+
+Error: At line 1 while processing "D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course2_高云IP Core简介及使用\led_test_gowin\led_test_gowin\impl\synthesize\led_test_gowin.prj"
+couldn't read file "D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course2_高云IP Core简介及使用\led_test_gowin\led_test_gowin\impl\synthesize\led_test_gowin.prj": no such file or directory
+exit status=0
+License checkin: synplifypro_gowin
