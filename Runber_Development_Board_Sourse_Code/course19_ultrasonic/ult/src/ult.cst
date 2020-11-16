@@ -1,0 +1,22 @@
+//Copyright (C)2014-2020 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.5Beta
+//Part Number: GW1N-UV4LQ144C6/I5
+//Created Time: Sat 08 08 11:58:44 2020
+
+IO_LOC "smg[7]" 10;
+IO_LOC "smg[6]" 138;
+IO_LOC "smg[5]" 142;
+IO_LOC "smg[4]" 9;
+IO_LOC "smg[3]" 11;
+IO_LOC "smg[2]" 12;
+IO_LOC "smg[1]" 139;
+IO_LOC "smg[0]" 8;
+IO_LOC "dig[3]" 7;
+IO_LOC "dig[2]" 141;
+IO_LOC "dig[1]" 140;
+IO_LOC "dig[0]" 137;
+IO_LOC "sig" 135;
+IO_LOC "rstn" 59;
+IO_LOC "clk" 4;

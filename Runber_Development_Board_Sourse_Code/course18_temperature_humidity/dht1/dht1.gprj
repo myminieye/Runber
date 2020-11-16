@@ -1,0 +1,15 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device>gw1n4-030</Device>
+    <FileList>
+        <File path="src/dht.v" type="file.verilog" enable="1"/>
+        <File path="src/change.v" type="file.verilog" enable="1"/>
+        <File path="src/top_dht.v" type="file.verilog" enable="1"/>
+        <File path="src/div_clk.v" type="file.verilog" enable="1"/>
+        <File path="src/seq_control.v" type="file.verilog" enable="1"/>
+        <File path="src/dht1.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
