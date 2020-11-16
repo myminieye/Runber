@@ -1,0 +1,14 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1N-4B" pn="GW1N-UV4LQ144C6/I5">gw1n4b-030</Device>
+    <FileList>
+        <File path="src/btn_deb.v" type="file.verilog" enable="1"/>
+        <File path="src/key_ctl.v" type="file.verilog" enable="1"/>
+        <File path="src/pwm_servo.v" type="file.verilog" enable="1"/>
+        <File path="src/servo_ctl.v" type="file.verilog" enable="1"/>
+        <File path="src/servo_prj.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

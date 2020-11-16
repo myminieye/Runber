@@ -1,0 +1,15 @@
+//Copyright (C)2014-2019 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.2.02Beta
+//Part Number: GW1N-UV4LQ144C6/I5
+//Created Time: Tue 06 02 11:50:31 2020
+
+IO_LOC "clk" 4;
+IO_PORT "clk" IO_TYPE=LVCMOS33;
+IO_LOC "key[0]" 58;
+IO_PORT "key[0]" IO_TYPE=LVCMOS33;
+IO_LOC "key[1]" 59;
+IO_PORT "key[1]" IO_TYPE=LVCMOS33;
+IO_LOC "pwm" 134;
+IO_PORT "pwm" IO_TYPE=LVCMOS33;

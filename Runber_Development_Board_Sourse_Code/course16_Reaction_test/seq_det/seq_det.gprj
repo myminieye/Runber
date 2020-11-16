@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device>gw1n4-030</Device>
+    <FileList>
+        <File path="src/btn_deb.v" type="file.verilog" enable="1"/>
+        <File path="src/compare.v" type="file.verilog" enable="1"/>
+        <File path="src/div_clk.v" type="file.verilog" enable="1"/>
+        <File path="src/seq_control.v" type="file.verilog" enable="1"/>
+        <File path="src/seq_display.v" type="file.verilog" enable="1"/>
+        <File path="src/seq_det.v" type="file.verilog" enable="1"/>
+        <File path="src/led_ctl.v" type="file.verilog" enable="1"/>
+        <File path="src/dec_counter.v" type="file.verilog" enable="1"/>
+        <File path="src/seq_det.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

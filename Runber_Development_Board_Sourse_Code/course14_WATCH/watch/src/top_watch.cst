@@ -1,0 +1,47 @@
+//Copyright (C)2014-2019 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.1.01Beta
+//Part Number: GW1N-LV4LQ144C6/I5
+//Created Time: Mon Sep 16 20:24:17 2019
+
+IO_LOC "clk" 4;
+
+IO_LOC "key[0]" 58;
+IO_LOC "key[1]" 59;
+IO_LOC "key[2]" 60;
+
+IO_LOC "led" 23;
+
+IO_LOC "dig[0]" 137;
+IO_LOC "dig[1]" 140;
+IO_LOC "dig[2]" 141;
+IO_LOC "dig[3]" 7;
+IO_LOC "smg[0]" 8;
+IO_LOC "smg[1]" 139;
+IO_LOC "smg[2]" 12;
+IO_LOC "smg[3]" 11;
+IO_LOC "smg[4]" 9;
+IO_LOC "smg[5]" 142;
+IO_LOC "smg[6]" 138;
+IO_LOC "smg[7]" 10;
+
+IO_PORT "clk"  IO_TYPE=LVCMOS33;
+IO_PORT "dig[0]"  IO_TYPE=LVCMOS33;
+IO_PORT "dig[1]"  IO_TYPE=LVCMOS33;
+IO_PORT "dig[2]"  IO_TYPE=LVCMOS33;
+IO_PORT "dig[3]"  IO_TYPE=LVCMOS33;
+IO_PORT "smg[0]"  IO_TYPE=LVCMOS33;
+IO_PORT "smg[1]"  IO_TYPE=LVCMOS33;
+IO_PORT "smg[2]"  IO_TYPE=LVCMOS33;
+IO_PORT "smg[3]"  IO_TYPE=LVCMOS33;
+IO_PORT "smg[4]"  IO_TYPE=LVCMOS33;
+IO_PORT "smg[5]"  IO_TYPE=LVCMOS33;
+IO_PORT "smg[6]"  IO_TYPE=LVCMOS33;
+IO_PORT "smg[7]"  IO_TYPE=LVCMOS33;
+
+IO_PORT "key[0]"  IO_TYPE=LVCMOS33;
+IO_PORT "key[1]"  IO_TYPE=LVCMOS33;
+IO_PORT "key[2]"  IO_TYPE=LVCMOS33;
+IO_PORT "led"  IO_TYPE=LVCMOS33;
+

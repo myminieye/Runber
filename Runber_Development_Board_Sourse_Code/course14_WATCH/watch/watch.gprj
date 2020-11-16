@@ -1,0 +1,16 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device>gw1n4-030</Device>
+    <FileList>
+        <File path="src/top_watch.v" type="file.verilog" enable="1"/>
+        <File path="src/top_watch.cst" type="file.cst" enable="1"/>
+        <File path="src/btn_deb.v" type="file.verilog" enable="1"/>
+        <File path="src/seq_control.v" type="file.verilog" enable="1"/>
+        <File path="src/watch_data_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/div_clk.v" type="file.verilog" enable="1"/>
+        <File path="src/watch.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
