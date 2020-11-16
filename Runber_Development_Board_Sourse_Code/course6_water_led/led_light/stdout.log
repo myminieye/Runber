@@ -1,0 +1,21 @@
+
+Starting:    C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+Hostname:    EYE-06
+Date:        Thu Apr  9 16:46:20 2020
+Version:     P-2019.09G
+
+Arguments:   -product synplify_pro D:/BaiduNetdiskDownload/Runber_Gowin_Board_sourse/course_prj/course6_water_led/led_light/impl/synthesize/led_light.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_gowin
+License: synplifypro_gowin node-locked 
+Licensed Vendor: gowin
+
+
+
+Loaded XDM (Hierarchy) data base - elapsed time 0:0 Blocks=0
+Error loading XDM: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course6_water_led\led_light\impl\synthesize\rev_1\dm\layer0.xdm(1:1): error occurred while parsing element
+Loaded XDM (Hierarchy) data base - elapsed time 0:0 Blocks=0
+exit status=0
+License checkin: synplifypro_gowin

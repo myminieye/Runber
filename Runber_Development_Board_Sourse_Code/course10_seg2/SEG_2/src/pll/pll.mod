@@ -1,0 +1,32 @@
+-series GW1N
+-device GW1N-4B
+-package LQFP144
+-part_number GW1N-UV4LQ144C6/I5
+
+
+-mod_name pll
+-file_name pll
+-path E:/project_manager/Mini_eye_Board/gowin/course/course_prj/course10_seg2/SEG_2/src/pll/
+-type PLL
+-file_type vlg
+-dev_type GW1N-4B
+-dyn_idiv_sel false
+-idiv_sel 1
+-dyn_fbdiv_sel false
+-fbdiv_sel 1
+-dyn_odiv_sel false
+-odiv_sel 64
+-dyn_da_en true
+-rst_sig false
+-rst_sig_p false
+-fclkin 12
+-rst_sig_i false
+-clkfb_sel 0
+-en_lock false
+-clkout_bypass true
+-clkout_ft_dir 1
+-en_clkoutp false
+-clkoutp_bypass false
+-en_clkoutd false
+-clkoutd_bypass false
+-en_clkoutd3 false

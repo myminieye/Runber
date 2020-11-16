@@ -1,0 +1,179 @@
+
+Starting:    C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+Hostname:    EYE-02
+Date:        Tue Jan  7 12:07:51 2020
+Version:     P-2019.03G
+
+Arguments:   -product synplify_pro E:/project_manager/Mini_eye_Board/gowin/course/course_prj/course9_seg1/SEG_1/impl/synthesize/SEG_1.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_gowin
+License: synplifypro_gowin node-locked 
+Licensed Vendor: gowin
+
+
+
+log file: "E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\SEG_1.srr"
+Running: rev_1 in foreground
+
+Running SEG_1|rev_1
+
+Running Flow: compile (Compile) on SEG_1|rev_1
+# Tue Jan  7 12:08:01 2020
+
+Running Flow: compile_flow (Compile Process) on SEG_1|rev_1
+# Tue Jan  7 12:08:01 2020
+
+Running: compiler (Compile Input) on SEG_1|rev_1
+# Tue Jan  7 12:08:01 2020
+
+compiler completed
+# Tue Jan  7 12:08:02 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on SEG_1|rev_1
+# Tue Jan  7 12:08:02 2020
+
+multi_srs_gen completed
+# Tue Jan  7 12:08:02 2020
+
+Return Code: 0
+Run Time:00h:00m:00s
+Complete: Compile Process on SEG_1|rev_1
+
+Running: premap (Premap) on SEG_1|rev_1
+# Tue Jan  7 12:08:02 2020
+
+premap completed with warnings
+# Tue Jan  7 12:08:05 2020
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Compile on SEG_1|rev_1
+
+Running Flow: map (Map) on SEG_1|rev_1
+# Tue Jan  7 12:08:05 2020
+
+Running: fpga_mapper (Map & Optimize) on SEG_1|rev_1
+# Tue Jan  7 12:08:05 2020
+Copied E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\synwork\SEG_1_m.srm to E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\SEG_1.srm
+
+fpga_mapper completed with warnings
+# Tue Jan  7 12:08:09 2020
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Map on SEG_1|rev_1
+Complete: Logic Synthesis on SEG_1|rev_1
+0log file: "E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\SEG_1.srr"
+Running: constraint_check in foreground
+
+
+Running Flow: constraint_check (Constraint Check) on SEG_1|rev_1
+# Tue Jan  7 12:08:52 2020
+
+Running Flow: compile (Compile) on SEG_1|rev_1
+# Tue Jan  7 12:08:52 2020
+
+Running Flow: compile_flow (Compile Process) on SEG_1|rev_1
+# Tue Jan  7 12:08:52 2020
+
+Running: compiler (Compile Input) on SEG_1|rev_1
+# Tue Jan  7 12:08:52 2020
+
+compiler completed
+# Tue Jan  7 12:08:53 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on SEG_1|rev_1
+# Tue Jan  7 12:08:53 2020
+Up-To-Date: multi_srs_gen. No run necessary
+Complete: Compile Process on SEG_1|rev_1
+
+Running: premap (Premap) on SEG_1|rev_1
+# Tue Jan  7 12:08:53 2020
+
+constraint_check_job Completed with warnings
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Compile on SEG_1|rev_1
+Complete: Constraint Check on SEG_1|rev_1
+0Loaded XDM (Hierarchy) data base - elapsed time 0:0 Blocks=0
+Error loading XDM: E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\dm\layer0.xdm(1:1): error occurred while parsing element
+Loaded XDM (Hierarchy) data base - elapsed time 0:0 Blocks=0
+Check netlist at line 1 : Unexpected directive in netlist '%'
+Check netlist at line 1 : Missing ; at end of statement
+Check netlist at line 1 : Unexpected directive in netlist 'S'
+Check netlist at line 1 : Missing ; at end of statement
+Check netlist at line 1 : Unexpected directive in netlist '-'
+Check netlist at line 1 : Missing ; at end of statement
+Check netlist at line 1 : Unexpected directive in netlist '%'
+Check netlist at line 1 : Missing ; at end of statement
+Check netlist at line 1 : Unexpected directive in netlist 'S'
+Check netlist at line 1 : Missing ; at end of statement
+Check netlist at line 1 : Unexpected directive in netlist '-'
+Check netlist at line 1 : Missing ; at end of statement
+log file: "E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\SEG_1.srr"
+Running: rev_1 in foreground
+
+Running SEG_1|rev_1
+
+Running Flow: compile (Compile) on SEG_1|rev_1
+# Tue Jan  7 12:12:47 2020
+
+Running Flow: compile_flow (Compile Process) on SEG_1|rev_1
+# Tue Jan  7 12:12:47 2020
+
+Running: compiler (Compile Input) on SEG_1|rev_1
+# Tue Jan  7 12:12:47 2020
+Copied E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\synwork\SEG_1_comp.srs to E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\SEG_1.srs
+
+compiler completed
+# Tue Jan  7 12:12:49 2020
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on SEG_1|rev_1
+# Tue Jan  7 12:12:49 2020
+
+multi_srs_gen completed
+# Tue Jan  7 12:12:50 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\synwork\SEG_1_mult.srs to E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\SEG_1.srs
+Complete: Compile Process on SEG_1|rev_1
+
+Running: premap (Premap) on SEG_1|rev_1
+# Tue Jan  7 12:12:50 2020
+
+premap completed with warnings
+# Tue Jan  7 12:12:52 2020
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on SEG_1|rev_1
+
+Running Flow: map (Map) on SEG_1|rev_1
+# Tue Jan  7 12:12:52 2020
+
+Running: fpga_mapper (Map & Optimize) on SEG_1|rev_1
+# Tue Jan  7 12:12:52 2020
+Copied E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\synwork\SEG_1_m.srm to E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\impl\synthesize\rev_1\SEG_1.srm
+
+fpga_mapper completed with warnings
+# Tue Jan  7 12:12:56 2020
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Map on SEG_1|rev_1
+Complete: Logic Synthesis on SEG_1|rev_1
+exit status=0
+License checkin: synplifypro_gowin

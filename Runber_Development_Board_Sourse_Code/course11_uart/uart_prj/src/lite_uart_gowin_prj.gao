@@ -1,0 +1,26 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Lite</Mode>
+    <AoCore_Lite index="0" device="GW1N-4B" sample_clock="clk" trig_type="0" capture_amount="2048" implemention="0" input_register_enabled="0" capture_init_data_enabled="0">
+        <SignalList>
+            <Bus name="led[7:0]">
+                <Signal>led[7]</Signal>
+                <Signal>led[6]</Signal>
+                <Signal>led[5]</Signal>
+                <Signal>led[4]</Signal>
+                <Signal>led[3]</Signal>
+                <Signal>led[2]</Signal>
+                <Signal>led[1]</Signal>
+                <Signal>led[0]</Signal>
+            </Bus>
+            <Signal>u_uart_rx/rx_en5</Signal>
+            <Bus name="u_uart_rx/rx_state[2:0]">
+                <Signal>u_uart_rx/rx_state[2]</Signal>
+                <Signal>u_uart_rx/rx_state[1]</Signal>
+                <Signal>u_uart_rx/rx_state[0]</Signal>
+            </Bus>
+            <Signal>u_uart_rx/uart_rx_reg</Signal>
+        </SignalList>
+    </AoCore_Lite>
+</GAO_CONFIG>
